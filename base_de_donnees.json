@@ -1,0 +1,25 @@
+{
+    "question": "Est-ce que votre personnage a des cheveux bouclés ?",
+    "oui": "Norman",
+    "non": {
+        "question": "Est-ce que votre personnage porte des lunettes ?",
+        "oui": {
+            "question": "Est-ce que votre personnage est en couple ?",
+            "oui": "Angelo",
+            "non": "Matteo" 
+        },
+        "non": {
+            "question": "Est-ce que votre personnage est enrobé ?",
+            "oui": "Ryan",
+            "non": {
+                "question": "Est-ce que votre personnage adore les femmes ?",
+                "oui": {
+                    "question": "Est-ce que votre personnage confond sa gauche et sa droite ?",
+                    "oui": "Angelo",
+                    "non": "Matteo"
+                },
+                "non": "Norman"
+            }
+        }
+    }
+}

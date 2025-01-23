@@ -1,0 +1,84 @@
+body {
+    background-image: url('/static/images/c7f4b7922cad40cd75fb214a63bec12d.gif'); /* Remplacez 'votre-image.jpg' par le nom de votre image */
+    background-size: cover; /* L'image occupe tout l'espace */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* L'image ne se répète pas */
+    height: 100vh; /* Assurez-vous que l'arrière-plan couvre toute la hauteur de la page */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Une couleur de fond semi-transparente pour rendre le texte lisible */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 1; /* Assurez-vous que le contenu est au-dessus de l'image */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.personnage-image img {
+    max-width: 250px; /* Limite la largeur de l'image à 300px */
+    height: auto;     /* Garde les proportions de l'image */
+    border-radius: 8px; /* Bordure arrondie */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre discrète autour de l'image */
+}
+

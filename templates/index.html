@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akinator</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ question }}</h1>
+        <form action="/reponse" method="POST">
+            <input type="radio" id="oui" name="reponse" value="oui">
+            <label for="oui">Oui</label><br>
+
+            <input type="radio" id="non" name="reponse" value="non">
+            <label for="non">Non</label><br>
+
+            <input type="submit" value="Répondre">
+        </form>
+        <br>
+        <a href="{{ url_for('recommencer') }}">Recommencer</a>  <!-- Ajout du lien pour recommencer -->
+    </div>
+</body>
+</html>
