@@ -3,8 +3,7 @@ import json
 
 app = Flask(__name__)
 
-# Définir une clé secrète pour les sessions
-app.secret_key = 'votre_cle_secrete'
+app.secret_key = 'ma_cle_secrete'
 
 @app.route('/resultat', methods=['POST'])
 def resultat():
