@@ -13,4 +13,4 @@ Je vais créer différents scripts pour ma solution:
 - Des scripts html/css pour l'interface web
 - Un script json pour stocker les questions et réponses
 ### Schéma simplifié :
-[![Image](https://i.goopics.net/wbghqu.png)](https://goopics.net/i/wbghqu)
+[![Image](https://i.goopics.net/18fa3j.png)](https://goopics.net/i/18fa3j)
