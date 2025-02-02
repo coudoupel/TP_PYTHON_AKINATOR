@@ -20,6 +20,21 @@ Je vais créer différents scripts pour ma solution:
 ### Schéma simplifié :
 [![Image](https://i.goopics.net/18fa3j.png)](https://goopics.net/i/18fa3j)
 
+### Arborescence des fichiers
+```
+TP_PYTHON_AKINATOR/
+│── app.py                  # Application Flask (backend)
+│── base_de_donnees.json     # Base de données des questions/réponses
+│── templates/               # Dossiers des fichiers HTML
+│   │── index.html           # Page principale (questions)
+│   │── resultat.html        # Page de résultat (personnage deviné)
+│── static/                  # Fichiers statiques (CSS, images)
+│   │── css/style.css        # Feuille de style CSS
+│   │── images/              # Images des personnages
+│── requirements.txt         # Dépendances du projet
+│── README.md                # Documentation du projet
+```
+
 ## Description détaillée des scripts :
 
 ## `app.py` (Python/Flask) :  
