@@ -56,7 +56,9 @@ Le jeu suit un **arbre de décision**, où chaque question mène à une autre qu
 - Lorsqu'un utilisateur arrive sur la page d'accueil, il reçoit **la première question** de l'arbre de décision.  
 - Cette question est extraite du fichier `base_de_donnees.json` et affichée via `index.html`.  
 - Exemple de première question affichée :  
-  > **"Votre personnage a-t-il les cheveux bouclés ?"**  
+  > **"Votre personnage a-t-il les cheveux bouclés ?"**
+
+[![Image](https://i.goopics.net/hoxgir.png)](https://goopics.net/i/hoxgir)
 
 
 
@@ -87,11 +89,17 @@ Prenons un extrait du fichier `base_de_donnees.json` :
 
 **Exemple de parcours :**  
 1. L’utilisateur répond **"oui"** à la question _"A-t-il les cheveux bouclés ?"_  
-   -  L’application répond immédiatement **"Norman"** 
+   -  L’application répond immédiatement **"Norman"**
+
+[![Image](https://i.goopics.net/ax662w.png)](https://goopics.net/i/ax662w)
+
 2. Si l’utilisateur répond **"non"**, l’application pose une autre question :  
    - _"Porte-t-il des lunettes ?"_
-3. Si **"oui"** → L’application affiche **"Angelo"**  
-4. Si **"non"** → L’application affiche **"Matteo"**  
+3. Si **"oui"** → L’application pose une autre question :
+   -_"Est il en couple ?"_
+4. Si **"oui"** → L'application Affiche **"Angelo"**
+
+[![Image](https://i.goopics.net/53ogaa.png)](https://goopics.net/i/53ogaa)
 
 Chaque réponse **rétrécit le nombre de possibilités** jusqu’à arriver à **une seule réponse possible**.
 
