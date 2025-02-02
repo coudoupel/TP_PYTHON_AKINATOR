@@ -4,6 +4,11 @@ Pour réaliser ce projet, l'environnement devra être réalisé comme tel:
 
 - Création d'une VM Debian 12
 - Installation de poetry et python
+- Installation des modules nécessaires via Poetry :
+```
+poetry add flask
+poetry add json
+```
 
 Pour ce projet, j'ai voulu reproduire le jeu akinator grâce à un script python.
 
