@@ -5,7 +5,7 @@ Pour réaliser ce projet, l'environnement devra être réalisé comme tel:
 - Création d'une VM Debian 12
 - Installation de poetry et python
 - Installation des modules nécessaires via Poetry :
-```
+```sh
 poetry add flask
 poetry add json
 ```
