@@ -48,7 +48,7 @@ L'objectif du jeu est de **deviner un personnage** en posant une série de quest
 
 Le jeu suit un **arbre de décision**, où chaque question mène à une autre question ou directement à un personnage.  
 
----
+
 
 ##  Fonctionnement pas à pas  
 
@@ -58,7 +58,7 @@ Le jeu suit un **arbre de décision**, où chaque question mène à une autre qu
 - Exemple de première question affichée :  
   > **"Votre personnage a-t-il les cheveux bouclés ?"**  
 
----
+
 
 ### Réponse de l’utilisateur  
 - L’utilisateur clique sur **"Oui"** ou **"Non"**, puis valide.  
@@ -68,7 +68,7 @@ Le jeu suit un **arbre de décision**, où chaque question mène à une autre qu
   - Charge **une nouvelle question** (si d’autres questions existent).  
   - Ou affiche **le personnage deviné** (si c’est la fin de l’arbre).  
 
----
+
 
 ### Exemple d’un parcours dans l’arbre  
 Prenons un extrait du fichier `base_de_donnees.json` :  
@@ -95,7 +95,7 @@ Prenons un extrait du fichier `base_de_donnees.json` :
 
 Chaque réponse **rétrécit le nombre de possibilités** jusqu’à arriver à **une seule réponse possible**.
 
----
+
 
 ### Fin du jeu  
 - Une fois qu’un personnage est trouvé, il est affiché sur `resultat.html` :  
@@ -107,7 +107,7 @@ Chaque réponse **rétrécit le nombre de possibilités** jusqu’à arriver à 
 
 - L’utilisateur peut cliquer sur **"Recommencer"**, ce qui **réinitialise la session** et relance le jeu avec la première question.
 
----
+
 
 ## Résumé du fonctionnement global  
  **Affichage de la première question**  
@@ -116,11 +116,3 @@ Chaque réponse **rétrécit le nombre de possibilités** jusqu’à arriver à 
  **Si une nouvelle question existe, elle est affichée**  
  **Si un personnage est trouvé, il est affiché**  
  **L’utilisateur peut recommencer le jeu**  
-
----
-
-##  Pourquoi utiliser un arbre de décision ?  
- **Rapide et efficace** : Peu de questions suffisent pour identifier un personnage.  
- **Facile à modifier** : Ajouter ou modifier des personnages est simple dans le fichier JSON.  
- **Expansible** : On peut **ajouter plus de questions** pour affiner les résultats.  
-
