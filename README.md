@@ -116,3 +116,13 @@ Chaque réponse **rétrécit le nombre de possibilités** jusqu’à arriver à 
  **Si une nouvelle question existe, elle est affichée**  
  **Si un personnage est trouvé, il est affiché**  
  **L’utilisateur peut recommencer le jeu**  
+
+
+ ### Conclusion
+Le projet Akinator en Python m'a permis de mettre en place un jeu interactif en ligne basé sur un arbre de décision. En utilisant Flask pour gérer la logique serveur et l'interface web.
+
+À travers ce projet, nous avons abordé plusieurs aspects essentiels du développement web, comme la gestion des sessions, l’interaction avec des fichiers de données en format JSON, et l’intégration d’une interface utilisateur avec des templates HTML/CSS.
+
+Le système de questions et réponses m'a permis de reproduire le principe du jeu Akinator, où chaque réponse de l'utilisateur affine progressivement les options jusqu'à deviner un personnage.
+
+Le projet peut encore être amélioré en termes d'expérience utilisateur, de sécurisation, et de performance, mais il fournit une base solide pour explorer d'autres évolutions comme l’optimisation du code pour un usage en production.
