@@ -31,8 +31,6 @@ TP_PYTHON_AKINATOR/
 │── static/                  # Fichiers statiques (CSS, images)
 │   │── css/style.css        # Feuille de style CSS
 │   │── images/              # Images des personnages
-│── requirements.txt         # Dépendances du projet
-│── README.md                # Documentation du projet
 ```
 
 ## Description détaillée des scripts :
